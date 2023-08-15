@@ -11,6 +11,27 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 })
 
+
+const hourHand = document.querySelector(".hour-hand");
+const minuteHand = document.querySelector(".minute-hand");
+const secondHand = document.querySelector(".second-hand");
+
+function updateClock()  {
+    const now = new Date();
+    const seconds = now.getSeconds();
+    const secondsDegrees = (seconds /60) * 360 * 90;
+    secondHand.style.transform = 'rotate(${secondsDegrees}deg)';
+
+    
+}
+
+
+
+
+
+
+
+
 function toggleDarkMode() {
     const element = document.documentElement;
     element.classList.toggle("dark-mode");
