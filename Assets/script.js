@@ -55,6 +55,7 @@ function checkVisibility() {
 window.addEventListener("scroll", checkVisibility);
 checkVisibility();
 
+
 // function toggleDarkMode() {
 //   const element = document.documentElement;
 //   element.classList.toggle("dark-mode");

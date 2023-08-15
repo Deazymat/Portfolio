@@ -1,67 +1,68 @@
+/* Global styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background: #ffffff;
-  transition: background 0.5s;
+    transition: background 0.5s;
 }
 
+/* Header styles */
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  padding: 20px;
-  margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
 
- nav {
-     position: fixed;
-     top: 0;
-     left: 0;
-     margin-top: 20px;
-     margin-left: 10px;
-     display: flex;
-flex-wrap: wrap;    
- flex-direction: row;
-     gap: 20px;
- }
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 
- nav a {
-     text-decoration: none;
-     color: black;
-     font-size: 20px;
- }
 /* lets the be dark mode
 .dark-mode {
     background-color: #1a1a1a;
     color: #ffffff;
 } */
 img {
-position: absolute;
+    position: absolute;
     top: 20px;
     right: 50px;
     width: 200px;
     height: 200px;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     margin: 20px auto;
 }
 
 .nav-bar {
-  display: flex;
-  justify-content: end;
-  align-items: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
-.about-me{
+.about-me {
     display: flex;
     justify-content: center;
     font-size: 25px;
     padding-bottom: 100px;
     margin-bottom: 100px;
-    
 }
 
 /* Divide the space by 6 into 6 columns */
@@ -80,71 +81,62 @@ position: absolute;
     gap: 20px;
     /* Add a gap of 20px between cells */
     padding: 50px;
-   
+
     box-sizing: border-box;
     font-size: 22px;
     color: rgb(0, 0, 0);
 }
 
-.content-text{
-
+.content-text {
     font-size: 15px;
 }
+
 .hidden {
-  opacity: 0.8;
-}
-
-.fade-in {
-  animation: fadeIn ease 1.5s;
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+    opacity: 0.8;
 }
 
 .clock {
-  position: absolute;
-  top: 20px;
-  right: 50px;
-  width: 200px;
-  height: 200px;
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 50%;
-  margin: 20px auto;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
 .hand {
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-  transform-origin: 50% 100%;
-  transform: rotate(90deg);
-  z-index: 1;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+    transform: rotate(90deg);
+    z-index: 1;
 }
 
 .hour-hand {
-  width: 6px;
-  height: 50px;
-  background: rgb(0, 0, 0);
+    width: 6px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    border-radius: 80%;
 }
 
 .minute-hand {
-  width: 4px;
-  height: 70px;
-  background: rgb(255, 0, 149);
+    width: 4px;
+    height: 70px;
+    background: rgb(255, 0, 149);
+    border-radius: 80%;
 }
 
 .second-hand {
-  width: 2px;
-  height: 90px;
-  background: rgb(255, 255, 255);
+    width: 2px;
+    height: 90px;
+    background: rgb(255, 255, 255);
+    border-radius: 80%;
 }
+
 footer {
     display: flex;
     justify-content: center;
