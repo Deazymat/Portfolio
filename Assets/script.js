@@ -1,3 +1,8 @@
+// The script sets the background color based on mouse movement.
+// It provides an animated clock where the clock hands move according to the current time.
+// Checks if specific project elements are visible in the viewport when the user scrolls, and applies a fade-in effect if they are.
+
+
 document.addEventListener("DOMContentLoaded", function () {
   document.body.addEventListener("mousemove", function (event) {
     let x = event.clientX;
