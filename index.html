@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Portfolio/Assets/css/style.css" />
+    <title>Portfolio</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Portfolio/Assets/css/style.css">
-    <title>Document</title>
-</head>
-
-<body>
+  <body>
     <header>
-       
-        <nav class="nav-bar">
-
-            <button onclick="toggleDarkMode()">Dark Mode</button>
-            <button><a href="www.indeed.com">Indeed</a></button>
-
-        </nav>
-<h1 id="title">Portfolio</h1>
+      <nav class="nav-bar">
+        <button onclick="toggleDarkMode()">Dark Mode</button>
+        <button><a href="www.indeed.com">Indeed</a></button>
+      </nav>
+      <h1 id="title">Portfolio</h1>
     </header>
+
+    <div class="clock">
+      <div class="hand hour-hand"></div>
+      <div class="hand minute-hand"></div>
+      <div class="hand second-hand"></div>
+    </div>
+
     <main class="content">
-        <aside>
+      <aside>
+        <h2><img src="image here" alt="" /> About me</h2>
 
-            <h2><img src="image here" alt=""> About me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis
+          neque non hendrerit pellentesque. Sed maximus, orci id pharetra
+          rhoncus, enim tortor dictum leo, vel lacinia arcu purus
+        </p>
+      </aside>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis neque non hendrerit pellentesque.
-                Sed maximus,
-                orci id pharetra rhoncus, enim tortor dictum leo, vel lacinia arcu purus </p>
-
-        </aside>
-
-        <div id="main-content">
-            <div class="columns">
-                <div class="row-1">
-                    <div class="column-pair1">column 1</div>
-                    <div class="column-pair1">column 2</div>
-                </div>
-                <div class="row-2">
-                    <div class="column-pair2">column 3</div>
-                    <div class="column-pair2">column 4</div>
-                </div>
-                <div class="row-3">
-                    <div class="column-pair3">column 5</div>
-                    <div class="column-pair3">column 6</div>
-                </div>
-
-
-            </div>
+      <div id="main-content">
+        <div class="columns">
+          <div class="row-1 hidden">
+            <div class="column-pair1">Project 1</div>
+            <div class="column-pair1">Project 2</div>
+          </div>
+          <div class="row-2 hidden">
+            <div class="column-pair2">Project 3</div>
+            <div class="column-pair2">Project 4</div>
+          </div>
+          <div class="row-3 hidden">
+            <div class="column-pair3">Project 5</div>
+            <div class="column-pair3">Project 6</div>
+          </div>
         </div>
+      </div>
     </main>
     <footer>
-
+        <p>FOOTER CONTENT</p>
     </footer>
 
     <script src="/Portfolio/Assets/script.js"></script>
-
-</body>
-
+  </body>
 </html>
