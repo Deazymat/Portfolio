@@ -62,8 +62,8 @@ img {
     padding: 50px;
    
     box-sizing: border-box;
-    font-size: 70px;
-    color: aqua;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
 }
 
 .content-text{
@@ -71,7 +71,7 @@ img {
     font-size: 15px;
 }
 .hidden {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .fade-in {
