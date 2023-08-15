@@ -1,15 +1,14 @@
+body {
+    transition: background 0.5s;
+}
+
+
+
 /* lets the be dark mode */
 .dark-mode {
   background-color: #1a1a1a;
   color: #ffffff;
 }
-
-header {
-    
-} 
-
-
-
 
 .nav-bar {
     display: flex;
@@ -17,6 +16,7 @@ header {
     align-items: center;
     
 }
+
 aside {
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ aside {
 
   /* divides the space by 6 into 6 columns */
   /* floats the columns next to each other */
-.row-1 {
+.row-1, .row-2, .row-3 {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -38,24 +38,34 @@ font-size: 70px;
   color: aqua;
 }
 
-.row-2
- {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 50px;
-    box-sizing: border-box;
-    font-size: 70px;
-    color: aqua;
+.hidden {
+    opacity: 0;
+
 }
 
-.row-3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-padding: 50px;
-    box-sizing: border-box;
-    height: 100px;
-    font-size: 70px;
-    color: aqua;
+.fade-in {
+    animation: fadeIn ease 1.5s;
+
 }
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.clock {
+position: relative;
+width: 200px;
+height: 200px;
+border: 5px solid black;
+border-radius: 50%;
+margin: 20px auto;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    
+}
+
