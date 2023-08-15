@@ -1,4 +1,40 @@
+/* lets the be dark mode */
 .dark-mode {
   background-color: #1a1a1a;
   color: #ffffff;
+}
+
+
+  /* divides the space by 6 into 6 columns */
+  /* floats the columns next to each other */
+.row-1 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 100px;
+box-sizing: border-box;
+font-size: 70px;
+  color: aqua;
+}
+
+.row-2
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+    box-sizing: border-box;
+    font-size: 70px;
+    color: aqua;
+}
+
+.row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100px;
+    font-size: 70px;
+    color: aqua;
 }
