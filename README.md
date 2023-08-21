@@ -84,8 +84,9 @@ If you have any suggestions or improvements, feel free to contribute to this pro
 ## References
 
 - [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet#readme)
-- OpenAI VScode Extension
+- [openAi-VScode-Extension]OpenAI VScode Extension
 - [w3schools](https://www.w3schools.com)
+- 
 
 ---
 
