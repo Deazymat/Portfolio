@@ -46,7 +46,7 @@ To run this project you will need the following:
 
 Screenshot of website that is currently still intact after reformat.
 
-![Alt text](path/to/screenshot.png)
+![Alt text](/Portfolio/Portfolio/Assets/pictures/screencapture-127-0-0-1-5501-Portfolio-Portfolio-index-html-2023-08-21-17_52_49.png)
 
 ---
 
