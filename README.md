@@ -50,16 +50,6 @@ Screenshot of website that is currently still intact after reformat.
 
 ---
 
-## Installation
-
-To install and run this project, follow these steps:
-
-1. Clone the repository to your local computer.
-2. Open the project in your text editor.
-3. Open the 'index.html' file in a web browser to start working.
-
----
-
 ## Features
 
 My portfolio includes the following features:
@@ -80,14 +70,6 @@ A way for potential employers or collaborators to reach out to me.
 https://deazymat.github.io/travel-project/
 ---
 
-## References
-
-- [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet#readme)
-- [openAi-VScode-Extension]OpenAI VScode Extension
-- [w3schools](https://www.w3schools.com)
-- 
-
----
 
 ## License
 
