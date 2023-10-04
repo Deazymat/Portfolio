@@ -14,7 +14,7 @@ Hello there! Welcome to my professional portfolio repository. Dive in to know mo
 - [Screenshot](#screenshot)
 - [Installation](#installation)
 - [Features](#features)
-- [Contributing](#contributing)
+- [Projects](#projects)
 - [References](#references)
 - [License](#license)
 - [Contact](#contact)
@@ -75,10 +75,9 @@ A way for potential employers or collaborators to reach out to me.
 
 ---
 
-## Contributing
+## Projects
 
-If you have any suggestions or improvements, feel free to contribute to this project. Your contributions are more than welcome!
-
+https://deazymat.github.io/travel-project/
 ---
 
 ## References
