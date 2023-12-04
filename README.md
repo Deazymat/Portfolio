@@ -68,6 +68,7 @@ A way for potential employers or collaborators to reach out to me.
 ## Projects
 
 https://deazymat.github.io/travel-project/
+https://github.com/VictoriaSweet/scary-potato
 ---
 
 
